@@ -1,0 +1,2020 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>InstallerFirstStep</class>
+ <widget class="QWidget" name="InstallerFirstStep">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>700</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>700</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>13</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Да здравствует Пересвет Панель!</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QStackedWidget" name="switcher">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>700</width>
+     <height>500</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>700</width>
+     <height>500</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>700</width>
+     <height>500</height>
+    </size>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="page">
+    <property name="minimumSize">
+     <size>
+      <width>700</width>
+      <height>500</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>700</width>
+      <height>500</height>
+     </size>
+    </property>
+    <widget class="QPushButton" name="continue1">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>440</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Molodo-font</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+    }
+QPushButton:hover {
+    background-color: rgba(230, 230, 230, 230);
+}
+QPushButton:pressed {
+    background-color: rgba(200, 200, 200, 230);
+}</string>
+     </property>
+     <property name="text">
+      <string>ДАЛЕЕ</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="cancle1">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>440</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Molodo-font</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+    }
+QPushButton:hover {
+    background-color: rgba(230, 230, 230, 230);
+}
+QPushButton:pressed {
+    background-color: rgba(200, 200, 200, 230);
+}</string>
+     </property>
+     <property name="text">
+      <string>Отмена</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="icon1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>400</y>
+       <width>91</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="main_text">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>671</width>
+       <height>361</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Monomakh Unicode</family>
+       <pointsize>10</pointsize>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+        padding: 10px;
+        border-radius: 20px;
+    }</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;Д&lt;/span&gt;обры люди, примите наш поклон!&lt;/p&gt;&lt;p&gt;Сия программа нарекается Пересвет Панель, во имя упрощения трудов ваших в деле установки и служения веб-приложений.&lt;/p&gt;&lt;p&gt;Соизволите ли вы доверить нам настройку всего потребного — Nginx, Apache, PHP, хранилища данных и прочие инструменты? Под сводами сей панели воздвигнем крепость вашу серверную и приведём всё в надлежащий лад.&lt;/p&gt;&lt;p&gt;Вам остаётся лишь в путь ступить — кнопью «Установить» подтвердить своё намерение. Да исполнится воля ваша, и да будет крепок оплот вашего веб-хозяйства!&lt;/p&gt;&lt;p&gt;Нажмите &lt;span style=&quot; font-weight:600;&quot;&gt;«Далее»&lt;/span&gt; для продолжения установки, и да сопутствует вам удача в цифровых пределах!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="background1">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>701</width>
+       <height>501</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <zorder>background1</zorder>
+    <zorder>continue1</zorder>
+    <zorder>cancle1</zorder>
+    <zorder>icon1</zorder>
+    <zorder>main_text</zorder>
+   </widget>
+   <widget class="QWidget" name="page_2">
+    <widget class="QPushButton" name="continue2">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>440</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Molodo-font</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+    }
+QPushButton:hover {
+    background-color: rgba(230, 230, 230, 230);
+}
+QPushButton:pressed {
+    background-color: rgba(200, 200, 200, 230);
+}
+QPushButton:enabled {
+    background-color: rgba(255, 255, 255, 230);
+}
+QPushButton:disabled {
+    background-color: rgba(130, 130, 130, 230);
+}</string>
+     </property>
+     <property name="text">
+      <string>ДАЛЕЕ</string>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="background2">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>701</width>
+       <height>501</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="icon2">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>20</y>
+       <width>91</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="main_text_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>221</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Monomakh Unicode</family>
+       <pointsize>10</pointsize>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+        padding: 10px;
+        border-radius: 20px;
+    }</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;Л&lt;/span&gt;&lt;span style=&quot; color:#000000;&quot;&gt;ицензионное соглашение&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="cancle2">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>440</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Molodo-font</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+    }
+QPushButton:hover {
+    background-color: rgba(230, 230, 230, 230);
+}
+QPushButton:pressed {
+    background-color: rgba(200, 200, 200, 230);
+}</string>
+     </property>
+     <property name="text">
+      <string>Отмена</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="back1">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>440</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Molodo-font</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+    }
+QPushButton:hover {
+    background-color: rgba(230, 230, 230, 230);
+}
+QPushButton:pressed {
+    background-color: rgba(200, 200, 200, 230);
+}</string>
+     </property>
+     <property name="text">
+      <string>Назад</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="textBrowser">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>120</y>
+       <width>671</width>
+       <height>251</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QTextBrowser {background-color: rgba(255, 255, 255, 230);
+color: black;
+
+}</string>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Настоящая серверная панель «Пересвет Панель» (далее – «Программа») защищена законами и международными соглашениями об авторском праве. Исключительные права на использование данной Программы принадлежат её автору(ам).&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;1.Использование и распространение&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Программа предоставляется бесплатно, без лицензионных отчислений, на неограниченный срок, но при условии соблюдения настоящих ограничений.&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Разрешается использовать Программу для собственных нужд, а также устанавливать и запускать её на любых совместимых системах.&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Копирование Программы разрешается только в личных целях и не должно противоречить настоящим условиям. Распространение на публичных ресурсах допускается лишь с письменного согласия правообладателя и при условии сохранения данного лицензионного соглашения в неизменном виде.&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;2. Патриотические условия&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Устанавливая Программу, вы подтверждаете свою поддержку и любовь к России, а также разделяете ценности патриотизма и уважения к её традициям и культуре.&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Установка и использование Программы свидетельствует о том, что вы не имеете намерений применять её во вред интересам Российской Федерации.&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;3. Условия предоставления&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Программа распространяется «как есть» без каких-либо гарантий, прямо выраженных или подразумеваемых, включая, но не ограничиваясь, гарантиями товарной пригодности или соответствия определённой цели.&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Правообладатель не гарантирует непрерывность, безошибочность и полноту работы Программы.&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;4. Ограничение ответственности&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Ни при каких обстоятельствах правообладатель не несёт ответственность за любой ущерб (прямой, косвенный, случайный, специальный, штрафной и/или сопутствующий), а также убытки, возникшие в результате использования или невозможности использования Программы.&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Это включает, но не ограничивается, упущенной выгодой, потерей данных, ущербом репутации или любым иным косвенным ущербом.&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;5. Сторонние компоненты&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Положения настоящего лицензионного соглашения и авторские права не распространяются на программы и компоненты третьих лиц, которые могут поставляться вместе с дистрибутивом Программы. Условия использования таких компонентов регулируются лицензионными соглашениями соответствующих правообладателей.&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;6. Прочие условия&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Использование Программы означает безоговорочное принятие всех положений настоящего соглашения.&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Настоящее соглашение регулируется применимым законодательством и не ограничивает никаких прав, гарантированных законом.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="i_accept">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>390</y>
+       <width>231</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Я принимаю условия соглашения</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="i_decline">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>410</y>
+       <width>251</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Я не принимаю условия соглашения</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="main_text_3">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>80</y>
+       <width>421</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Monomakh Unicode</family>
+       <pointsize>10</pointsize>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+        border-radius: 10px;
+    }</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Молвь сию внемли, прежде нежели путь продолжишь!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="back_accept">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>380</y>
+       <width>261</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+    }</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <zorder>background2</zorder>
+    <zorder>back_accept</zorder>
+    <zorder>icon2</zorder>
+    <zorder>main_text_2</zorder>
+    <zorder>cancle2</zorder>
+    <zorder>continue2</zorder>
+    <zorder>back1</zorder>
+    <zorder>textBrowser</zorder>
+    <zorder>main_text_3</zorder>
+    <zorder>i_accept</zorder>
+    <zorder>i_decline</zorder>
+   </widget>
+   <widget class="QWidget" name="page_3">
+    <widget class="QLabel" name="main_text_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>201</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Monomakh Unicode</family>
+       <pointsize>10</pointsize>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+        padding: 10px;
+        border-radius: 20px;
+    }</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;В&lt;/span&gt;&lt;span style=&quot; color:#000000;&quot;&gt;ыбор папки установки&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="continue3">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>440</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Molodo-font</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+    }
+QPushButton:hover {
+    background-color: rgba(230, 230, 230, 230);
+}
+QPushButton:pressed {
+    background-color: rgba(200, 200, 200, 230);
+}</string>
+     </property>
+     <property name="text">
+      <string>ДАЛЕЕ</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="main_text_5">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>80</y>
+       <width>551</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Monomakh Unicode</family>
+       <pointsize>10</pointsize>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+        border-radius: 10px;
+    }</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Добрый воин! Скажи, в кои палаты желаешь возвести Пересвет Панель?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="back2">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>440</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Molodo-font</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+    }
+QPushButton:hover {
+    background-color: rgba(230, 230, 230, 230);
+}
+QPushButton:pressed {
+    background-color: rgba(200, 200, 200, 230);
+}</string>
+     </property>
+     <property name="text">
+      <string>Назад</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="background3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>701</width>
+       <height>501</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="cancle3">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>440</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Molodo-font</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+    }
+QPushButton:hover {
+    background-color: rgba(230, 230, 230, 230);
+}
+QPushButton:pressed {
+    background-color: rgba(200, 200, 200, 230);
+}</string>
+     </property>
+     <property name="text">
+      <string>Отмена</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="icon3">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>20</y>
+       <width>91</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="project_path">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>120</y>
+       <width>531</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>C:\PeresvetPanel</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="view">
+     <property name="geometry">
+      <rect>
+       <x>590</x>
+       <y>120</y>
+       <width>93</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+        border-radius: 10px;
+    }
+QPushButton:hover {
+    background-color: rgba(230, 230, 230, 230);
+}
+QPushButton:pressed {
+    background-color: rgba(200, 200, 200, 230);
+}</string>
+     </property>
+     <property name="text">
+      <string>Обзор...</string>
+     </property>
+    </widget>
+    <zorder>background3</zorder>
+    <zorder>main_text_4</zorder>
+    <zorder>continue3</zorder>
+    <zorder>main_text_5</zorder>
+    <zorder>back2</zorder>
+    <zorder>cancle3</zorder>
+    <zorder>icon3</zorder>
+    <zorder>project_path</zorder>
+    <zorder>view</zorder>
+   </widget>
+   <widget class="QWidget" name="page_4">
+    <widget class="QPushButton" name="continue4">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>440</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Molodo-font</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+    }
+QPushButton:hover {
+    background-color: rgba(230, 230, 230, 230);
+}
+QPushButton:pressed {
+    background-color: rgba(200, 200, 200, 230);
+}</string>
+     </property>
+     <property name="text">
+      <string>ДАЛЕЕ</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="main_text_6">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>80</y>
+       <width>511</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Monomakh Unicode</family>
+       <pointsize>8</pointsize>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+        border-radius: 10px;
+    }</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Изволь избрати, какие орудия серверного дела желаешь поставить&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="main_text_7">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Monomakh Unicode</family>
+       <pointsize>10</pointsize>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+        padding: 10px;
+        border-radius: 20px;
+    }</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;В&lt;/span&gt;&lt;span style=&quot; color:#000000;&quot;&gt;ыбор модулей&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="back3">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>440</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Molodo-font</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+    }
+QPushButton:hover {
+    background-color: rgba(230, 230, 230, 230);
+}
+QPushButton:pressed {
+    background-color: rgba(200, 200, 200, 230);
+}</string>
+     </property>
+     <property name="text">
+      <string>Назад</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="cancle4">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>440</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Molodo-font</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+    }
+QPushButton:hover {
+    background-color: rgba(230, 230, 230, 230);
+}
+QPushButton:pressed {
+    background-color: rgba(200, 200, 200, 230);
+}</string>
+     </property>
+     <property name="text">
+      <string>Отмена</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>430</y>
+       <width>241</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+		padding-left: 5px;
+        border-radius: 5px;
+    }</string>
+     </property>
+     <property name="text">
+      <string>Вес кладовых файлов:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="icon4">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>20</y>
+       <width>91</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="background4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>701</width>
+       <height>501</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QTreeView" name="modules">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>120</y>
+       <width>611</width>
+       <height>301</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QTreeView {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+    }
+QTreeView::branch { border: none; }
+QTreeView::item { border-bottom: none; }</string>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::EditKeyPressed</set>
+     </property>
+     <property name="selectionMode">
+      <enum>QAbstractItemView::ExtendedSelection</enum>
+     </property>
+     <property name="selectionBehavior">
+      <enum>QAbstractItemView::SelectRows</enum>
+     </property>
+     <property name="expandsOnDoubleClick">
+      <bool>false</bool>
+     </property>
+     <attribute name="headerVisible">
+      <bool>false</bool>
+     </attribute>
+    </widget>
+    <zorder>background4</zorder>
+    <zorder>continue4</zorder>
+    <zorder>main_text_6</zorder>
+    <zorder>main_text_7</zorder>
+    <zorder>back3</zorder>
+    <zorder>cancle4</zorder>
+    <zorder>label</zorder>
+    <zorder>icon4</zorder>
+    <zorder>modules</zorder>
+   </widget>
+   <widget class="QWidget" name="page_5">
+    <widget class="QPushButton" name="back4">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>440</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Molodo-font</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+    }
+QPushButton:hover {
+    background-color: rgba(230, 230, 230, 230);
+}
+QPushButton:pressed {
+    background-color: rgba(200, 200, 200, 230);
+}</string>
+     </property>
+     <property name="text">
+      <string>Назад</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="continue5">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>440</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Molodo-font</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+    }
+QPushButton:hover {
+    background-color: rgba(230, 230, 230, 230);
+}
+QPushButton:pressed {
+    background-color: rgba(200, 200, 200, 230);
+}</string>
+     </property>
+     <property name="text">
+      <string>Далее</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="cancle5">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>440</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Molodo-font</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+    }
+QPushButton:hover {
+    background-color: rgba(230, 230, 230, 230);
+}
+QPushButton:pressed {
+    background-color: rgba(200, 200, 200, 230);
+}</string>
+     </property>
+     <property name="text">
+      <string>Отмена</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="background5">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>701</width>
+       <height>501</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="main_text_8">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>241</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Monomakh Unicode</family>
+       <pointsize>10</pointsize>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+        padding: 10px;
+        border-radius: 20px;
+    }</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;Д&lt;/span&gt;&lt;span style=&quot; color:#000000;&quot;&gt;ополнительные параметры&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="icon5">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>20</y>
+       <width>91</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="main_text_9">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>80</y>
+       <width>381</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Monomakh Unicode</family>
+       <pointsize>8</pointsize>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+        border-radius: 10px;
+    }</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Здесь можешь наречь тонкие уставы установки&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_auto">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>140</y>
+       <width>371</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Автоматический запуск при загрузке Windows</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_table">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>170</y>
+       <width>371</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Создать значок на Рабочем столе</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_pusk">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>200</y>
+       <width>371</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Добавить в меню &quot;Пуск&quot;</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="back_accept_2">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>130</y>
+       <width>331</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+    }</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <zorder>background5</zorder>
+    <zorder>back_accept_2</zorder>
+    <zorder>back4</zorder>
+    <zorder>continue5</zorder>
+    <zorder>cancle5</zorder>
+    <zorder>main_text_8</zorder>
+    <zorder>icon5</zorder>
+    <zorder>main_text_9</zorder>
+    <zorder>checkBox_auto</zorder>
+    <zorder>checkBox_table</zorder>
+    <zorder>checkBox_pusk</zorder>
+   </widget>
+   <widget class="QWidget" name="page_6">
+    <widget class="QLabel" name="main_text_11">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>201</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Monomakh Unicode</family>
+       <pointsize>10</pointsize>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+        padding: 10px;
+        border-radius: 20px;
+    }</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;В&lt;/span&gt;&lt;span style=&quot; color:#000000;&quot;&gt;сё готово к установке&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="main_text_10">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>80</y>
+       <width>591</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Monomakh Unicode</family>
+       <pointsize>9</pointsize>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+		padding-left:10px;
+        border-radius: 10px;
+    }</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Нажми &lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;«Установить»&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;, и Пересвет Панель воздвигнется в указанном тобой чертоге, готовая к службе и ратному делу веб-хозяйства!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="cancle6">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>440</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Molodo-font</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+    }
+QPushButton:hover {
+    background-color: rgba(230, 230, 230, 230);
+}
+QPushButton:pressed {
+    background-color: rgba(200, 200, 200, 230);
+}</string>
+     </property>
+     <property name="text">
+      <string>Отмена</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="install">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>440</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Molodo-font</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+    }
+QPushButton:hover {
+    background-color: rgba(230, 230, 230, 230);
+}
+QPushButton:pressed {
+    background-color: rgba(200, 200, 200, 230);
+}</string>
+     </property>
+     <property name="text">
+      <string>Установить</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="back5">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>440</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Molodo-font</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+    }
+QPushButton:hover {
+    background-color: rgba(230, 230, 230, 230);
+}
+QPushButton:pressed {
+    background-color: rgba(200, 200, 200, 230);
+}</string>
+     </property>
+     <property name="text">
+      <string>Назад</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="icon6">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>400</y>
+       <width>91</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="background6">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>701</width>
+       <height>501</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <zorder>background6</zorder>
+    <zorder>main_text_11</zorder>
+    <zorder>main_text_10</zorder>
+    <zorder>cancle6</zorder>
+    <zorder>install</zorder>
+    <zorder>back5</zorder>
+    <zorder>icon6</zorder>
+   </widget>
+   <widget class="QWidget" name="page_7">
+    <widget class="QLabel" name="main_text_13">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>201</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Monomakh Unicode</family>
+       <pointsize>10</pointsize>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+        padding: 10px;
+        border-radius: 20px;
+    }</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;И&lt;/span&gt;&lt;span style=&quot; color:#000000;&quot;&gt;дёт устновка&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="main_text_12">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>80</y>
+       <width>391</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Monomakh Unicode</family>
+       <pointsize>9</pointsize>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+		padding-left:10px;
+        border-radius: 10px;
+    }</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Пересвет Панель ведёт установку вашего сервера&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="cancle_installation">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>440</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Molodo-font</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+    }
+QPushButton:hover {
+    background-color: rgba(230, 230, 230, 230);
+}
+QPushButton:pressed {
+    background-color: rgba(200, 200, 200, 230);
+}</string>
+     </property>
+     <property name="text">
+      <string>Отмена</string>
+     </property>
+    </widget>
+    <widget class="QProgressBar" name="progress_install">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>170</y>
+       <width>611</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QProgressBar {
+                border: 3px solid #5C3A1E;
+                text-align: center;
+                font-size: 16px;
+                font-weight: bold;
+                color: #fff7d6;
+                background: #3E2F1C;
+            }
+
+            QProgressBar::chunk {
+                background: #E09F3E;
+
+            }
+</string>
+     </property>
+     <property name="value">
+      <number>0</number>
+     </property>
+     <property name="textVisible">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="status_label">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>130</y>
+       <width>611</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+		padding-left: 5px;
+        border-radius: 5px;
+    }</string>
+     </property>
+     <property name="text">
+      <string>Установка...</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="background7">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>701</width>
+       <height>501</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="icon7">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>400</y>
+       <width>91</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <zorder>background7</zorder>
+    <zorder>main_text_13</zorder>
+    <zorder>main_text_12</zorder>
+    <zorder>cancle_installation</zorder>
+    <zorder>progress_install</zorder>
+    <zorder>status_label</zorder>
+    <zorder>icon7</zorder>
+   </widget>
+   <widget class="QWidget" name="page_8">
+    <widget class="QLabel" name="background8">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>701</width>
+       <height>501</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="main_text_24">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>80</y>
+       <width>611</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Monomakh Unicode</family>
+       <pointsize>9</pointsize>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+		padding-left:10px;
+        border-radius: 10px;
+    }</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Се, Пересветъ-Понель нынѣ на числителѣ твоемъ! Готова она служити исправно, а вебъ-хозяйство и хранилища данных устроены во славу труда твоего.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="icon8">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>400</y>
+       <width>91</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ready">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>440</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Molodo-font</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+    }
+QPushButton:hover {
+    background-color: rgba(230, 230, 230, 230);
+}
+QPushButton:pressed {
+    background-color: rgba(200, 200, 200, 230);
+}</string>
+     </property>
+     <property name="text">
+      <string>Готово</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="main_text_23">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>201</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Monomakh Unicode</family>
+       <pointsize>10</pointsize>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+        padding: 10px;
+        border-radius: 20px;
+    }</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;У&lt;/span&gt;&lt;span style=&quot; color:#000000;&quot;&gt;становка завершена!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="isLaunchPanel">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>140</y>
+       <width>161</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QCheckBox {
+        background-color: rgba(255, 255, 255, 230);
+        color: black;
+		padding-left:15px;
+        border-radius: 10px;
+    }</string>
+     </property>
+     <property name="text">
+      <string>Запустить панель</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,156 @@
+{
+  "nginx": {
+    "1.20.2": {
+      "link": "https://nginx.org/download/nginx-1.20.2.zip",
+      "size": 1752064
+    },
+    "1.22.1": {
+      "link": "https://nginx.org/download/nginx-1.22.1.zip",
+      "size": 1752064
+    },
+    "1.23.4": {
+      "link": "https://nginx.org/download/nginx-1.23.4.zip",
+      "size": 1730560
+    },
+    "1.24.0": {
+      "link": "https://nginx.org/download/nginx-1.24.0.zip",
+      "size": 1759232
+    },
+    "1.25.3": {
+      "link": "https://nginx.org/download/nginx-1.25.3.zip",
+      "size": 2070528
+    },
+    "1.26.3": {
+      "link": "https://nginx.org/download/nginx-1.26.3.zip",
+      "size": 2095104
+    }
+  },
+  "apache": {
+    "2.4.54": {
+      "link": "https://www.apachelounge.com/download/VC15/binaries/httpd-2.4.54-win64-VC15.zip",
+      "size": 10706247
+    },
+    "2.4.63": {
+      "link": "https://www.apachelounge.com/download/VS17/binaries/httpd-2.4.63-250207-win64-VS17.zip",
+      "size": 12008979
+    }
+  },
+  "php": {
+    "7.2.24": {
+      "link": "https://windows.php.net/downloads/releases/archives/php-7.2.24-Win32-VC15-x64.zip",
+      "size": 26251874
+    },
+    "7.4.33": {
+      "link": "https://windows.php.net/downloads/releases/php-7.4.33-Win32-vc15-x64.zip",
+      "size": 26237519
+    },
+    "8.0.30": {
+      "link": "https://windows.php.net/downloads/releases/php-8.0.30-Win32-vs16-x64.zip",
+      "size": 26877638
+    },
+    "8.2.27": {
+      "link": "https://windows.php.net/downloads/releases/php-8.2.27-Win32-vs16-x64.zip",
+      "size": 31914765
+    },
+    "8.3.16": {
+      "link": "https://windows.php.net/downloads/releases/php-8.3.16-Win32-vs16-x64.zip",
+      "size": 32333328
+    },
+    "8.4.3": {
+      "link": "https://windows.php.net/downloads/releases/php-8.4.3-Win32-vs17-x64.zip",
+      "size": 33908938
+    }
+  },
+  "mysql": {
+    "5.7.40": {
+      "link": "https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.40-winx64.zip",
+      "size": 323967620
+    },
+    "8.0.40": {
+      "link": "https://downloads.mysql.com/archives/get/p/23/file/mysql-8.0.40-winx64.zip",
+      "size": 243740050
+    },
+    "8.4.4": {
+      "link": "https://dev.mysql.com/get/Downloads/MySQL-8.4/mysql-8.4.4-winx64.zip",
+      "size": 259589246
+    },
+    "9.1.0": {
+      "link": "https://downloads.mysql.com/archives/get/p/23/file/mysql-9.1.0-winx64.zip",
+      "size": 302389516
+    }
+  },
+  "postgresql": {
+    "10": {
+      "link": "https://get.enterprisedb.com/postgresql/postgresql-10.23-1-windows-x64-binaries.zip",
+      "size": 276310221
+    },
+    "11": {
+      "link": "https://get.enterprisedb.com/postgresql/postgresql-11.21-1-windows-x64-binaries.zip",
+      "size": 322215979
+    },
+    "12": {
+      "link": "https://get.enterprisedb.com/postgresql/postgresql-12.22-1-windows-x64-binaries.zip",
+      "size": 295657977
+    },
+    "13": {
+      "link": "https://get.enterprisedb.com/postgresql/postgresql-13.18-3-windows-x64-binaries.zip",
+      "size": 301643421
+    },
+    "14": {
+      "link": "https://get.enterprisedb.com/postgresql/postgresql-14.15-3-windows-x64-binaries.zip",
+      "size": 302575703
+    },
+    "15": {
+      "link": "https://get.enterprisedb.com/postgresql/postgresql-15.10-3-windows-x64-binaries.zip",
+      "size": 304468701
+    },
+    "16": {
+      "link": "https://get.enterprisedb.com/postgresql/postgresql-16.6-3-windows-x64-binaries.zip",
+      "size": 306528907
+    },
+    "17": {
+      "link": "https://get.enterprisedb.com/postgresql/postgresql-17.2-3-windows-x64-binaries.zip",
+      "size": 313721635
+    }
+  },
+  "redis": {
+    "6.2.17": {
+      "link": "https://github.com/redis-windows/redis-windows/releases/download/6.2.17/Redis-6.2.17-Windows-x64-cygwin.zip",
+      "size": 10071756
+    },
+    "7.4.2": {
+      "link": "https://github.com/redis-windows/redis-windows/releases/download/7.4.2/Redis-7.4.2-Windows-x64-cygwin.zip",
+      "size": 9966873
+    }
+  },
+  "mongodb": {
+    "5.0.31": {
+      "link": "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-5.0.31.zip",
+      "size": 388146664
+    },
+    "6.0.2": {
+      "link": "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-6.0.20.zip",
+      "size": 539324241
+    },
+    "7.0.16": {
+      "link": "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-7.0.16.zip",
+      "size": 622418338
+    },
+    "8.0.4": {
+      "link": "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-8.0.4.zip",
+      "size": 775797076
+    }
+  },
+  "phpMyAdmin": {
+    "5.2.2": {
+      "link": "https://files.phpmyadmin.net/phpMyAdmin/5.2.2/phpMyAdmin-5.2.2-all-languages.zip",
+      "size": 15782614
+    }
+  },
+  "adminer": {
+    "4.8.1": {
+      "link": "https://github.com/vrana/adminer/releases/download/v4.8.1/adminer-4.8.1.php",
+      "size": 476603
+    }
+  }
+}
